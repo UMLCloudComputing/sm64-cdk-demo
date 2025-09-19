@@ -1,3 +1,15 @@
+
+# Super Mario 64 CDK Demo
+
+## What
+This a demo of using AWS CDK in Python to deploy a pre-compiled static page in WebAssembly onto an S3 Bucket. 
+
+## How
+Using AWS CDK in Python and S3 to host the static page content
+
+**Language**: Python
+
+# Original README
 # Audio works in firefox, but currently not on chrome 
 
 # sm64
