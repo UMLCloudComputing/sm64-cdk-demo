@@ -27,6 +27,7 @@ class Sm64CdkDemoStack(Stack):
                 restrict_public_buckets=False,
             ),
             removal_policy=RemovalPolicy.DESTROY, 
+            auto_delete_objects=True
         )
 
         s3deploy.BucketDeployment(
